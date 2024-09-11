@@ -26,11 +26,11 @@ public class Demo {
 	            int number = scanner.nextInt();
 
 	            for (int j = 0; j < number; j++) {
-	                // Input person details for the family
+	               
 	                System.out.println("Enter details for person " + (j + 1) + ":");
 
 	                System.out.print("Name: ");
-	                scanner.nextLine();  // Consume the newline
+	                scanner.nextLine();  
 	                String name = scanner.nextLine();
 
 	                System.out.print("Age: ");
